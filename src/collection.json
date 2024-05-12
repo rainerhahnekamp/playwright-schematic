@@ -1,0 +1,9 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "playwright": {
+      "description": "A blank schematic.",
+      "factory": "./playwright/index#playwright"
+    }
+  }
+}
